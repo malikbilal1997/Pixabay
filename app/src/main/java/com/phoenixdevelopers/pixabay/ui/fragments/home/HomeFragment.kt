@@ -95,7 +95,7 @@ class HomeFragment : Fragment() {
 
                         GridType.TWO_COLUMNS -> {
 
-                            binding.layoutButton.setImageResource(R.drawable.ic_table)
+                            binding.layoutButton.setImageResource(R.drawable.ic_grid)
 
                             binding.imagesRecyclerView.layoutManager = GridLayoutManager(
                                 requireContext(), 2
@@ -105,7 +105,7 @@ class HomeFragment : Fragment() {
 
                         GridType.THREE_COLUMNS -> {
 
-                            binding.layoutButton.setImageResource(R.drawable.ic_grid)
+                            binding.layoutButton.setImageResource(R.drawable.ic_table)
 
                             binding.imagesRecyclerView.layoutManager = GridLayoutManager(
                                 requireContext(), 3
