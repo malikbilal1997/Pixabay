@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pixabay</string>
+
+    <string name="no_button">No</string>
+    <string name="yes_button">Yes</string>
+    <string name="dialog_open_title">Do you want to see in full screen?</string>
+
+</resources>
